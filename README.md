@@ -7,7 +7,7 @@
     ├── input/                          # Folder containing parking image
     │   └── parking_image.jpg
     ├── park_positions                  # Saved parking slot coordinates (Pickle file)
-    ├── ├── output/                         # Folder for generated files
+    ├── output/                         # Folder for generated files
     │       ├── parking_counts_YYYYMMDD_HHMMSS.xlsx  # Auto-generated Excel report
     │       └── parking_screenshot_YYYYMMDD_HHMMSS.jpg 
     ├── parking_slot_counter.py         # Counts and displays slot status
