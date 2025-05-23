@@ -4,12 +4,21 @@
 
 ## Project Structure
 
-├── input/ # Folder containing parking image
-│ └── parking_image.jpg
-├── park_positions # Saved parking slot coordinates (Pickle file)
-├── parking_counts_YYYYMMDD_HHMMSS.xlsx # Auto-generated Excel report
-├── parking_slot_counter.py # Counts and displays slot status
-├── parking_slot_picker.py # Tool to mark parking slots
+    ├── input/                          # Folder containing parking image
+    │   └── parking_image.jpg
+    ├── park_positions                  # Saved parking slot coordinates (Pickle file)
+    ├── parking_counts_YYYYMMDD_HHMMSS.xlsx  # Auto-generated Excel report
+    ├── parking_slot_counter.py         # Counts and displays slot status
+    ├── parking_slot_picker.py          # Tool to mark parking slots
+
+
+## 🔧 How It Works
+
+1. **Mark Slots**
+
+```bash
+python parking_slot_picker.py
+
 ## 🔧 How It Works
 
 1. **Mark Slots**
